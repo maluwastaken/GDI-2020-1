@@ -10,3 +10,4 @@ gme - Gabriel de Melo Evangelista - gme@cin.ufpe.br
 
 mlll - Maria Luísa Leandro de Lima - mlll@cin.ufpe.br
 
+phos - Pedro Henrique de Oliveira Silva - phos@cin.ufpe.br
