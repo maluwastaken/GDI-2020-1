@@ -66,7 +66,7 @@ insert into Audio values('0040', 'Me Desculpa JayZ', 213);
 insert into Usuario values('0001', 1, '132', '40028922', 'Gabriel Evangelista', 'master');
 insert into Usuario values('0002', 1, '489', '1234567889', 'Maria L L Lima', 'visa');
 insert into Usuario values('0003', 0, '543', '5446567657', 'Felipe Almeida', 'AgiCard');
-insert into Usuario values('0004', 0, '765', '7657867935', 'Arthur Anibal', 'master');
+insert into Usuario values('0004', 1, '765', '7657867935', 'Arthur Anibal', 'master');
 insert into Usuario values('0005', 1, '894', '3427656793', 'Pedro Henrique', 'ELO');
 
 --Artista
