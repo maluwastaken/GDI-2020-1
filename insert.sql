@@ -164,7 +164,7 @@ insert into Genero values('0035', 'Pop');
 insert into Genero values('0036', 'FPop');
 insert into Genero values('0037', 'Brega');
 insert into Genero values('0038', 'FPop');
-insert into Genero values('0039', 'EDM');
+insert into Genero values('0038', 'EDM');
 insert into Genero values('0040', 'Rap');
 insert into Genero values('0040', 'Blues');
 
