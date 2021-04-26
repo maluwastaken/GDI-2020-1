@@ -6,6 +6,17 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Usuario cadastrado com sucesso');
 END;
 
+-- Printa o valor antigo e o novo de uma atualizacao na conta
+CREATE OR REPLACE TRIGGER atualizaconta
+AFTER UPDATE
+ON Conta
+FOR EACH ROW
+BEGIN
+DBMS_OUTPUT.PUT_LINE('O Usuario: ' || :OLD.nome );
+DBMS_OUTPUT.PUT_LINE('Agora se chama: ' || :NEW.nome );
+END;
+
+-- funcao
 CREATE OR REPLACE FUNCTION get_size(id_artista VARCHAR) 
 RETURN NUMBER
 IS
