@@ -11,6 +11,10 @@ INNER JOIN Podcast ON Audio.IDAudio = Podcast.IDPodcast
 
 --FNAP
 -- Junção externa
+SELECT a.nome_artistico, t.data_inicio
+FROM Artista a 
+LEFT OUTER JOIN
+Turnes t ON a.IDArtista = t.IDTurnes;
 
 -- Semi junção
 SELECT a.nome_artistico, a.biografia
@@ -67,6 +71,8 @@ WHERE C.IDConta IN
 
 
 -- Operação de conjunto
-(
-)
+SELECT c.nome FROM Conta c inner join Seguir s ON c.IDConta = s.IDSeguido
+MINUS
+SELECT c.nome FROM Conta c inner join Seguir s ON c.IDConta = s.IDSeguidor
+
 
