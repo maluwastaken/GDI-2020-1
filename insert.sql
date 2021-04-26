@@ -240,3 +240,10 @@ insert into Possuem values('0013', date '2022-05-25', '0002', date '2022-05-26')
 insert into Possuem values('0011', date '2012-10-21', '0003', date '2013-03-01');
 insert into Possuem values('0008', date '2021-03-28', '0004', date '2021-03-30');
 insert into Possuem values('0006', date '2012-12-20', '0003', date '2012-12-31');
+
+--Contem
+insert into Contem values('0001', '0002');
+insert into Contem values('0019', '0003');
+insert into Contem values('0015', '0004');
+insert into Contem values('0009', '0005');
+insert into Contem values('0005', '0001');
