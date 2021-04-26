@@ -203,3 +203,10 @@ insert into Album values('0002', 'Album B', 'gravadora ABC');
 insert into Album values('0003', 'Album C', 'gravadora XYZ');
 insert into Album values('0004', 'Album D', 'gravadora XYZ');
 insert into Album values('0005', 'Album E', 'gravadora ABC');
+
+--Playlist
+insert into Playlist values('0001', 'Minha playlist linda', '4823748327498247355435325');
+insert into Playlist values('0002', 'Playlist deprê', '4832748267326832432643287');
+insert into Playlist values('0003', 'Limpando a casa', '434354353458435734985');
+insert into Playlist values('0004', 'Dormir tranquilo', '483748365874353478');
+insert into Playlist values('0005', 'Classicos anos 90', '87389173987483265874');
