@@ -9,9 +9,9 @@ SELECT Audio.nome,  Podcast.episodio, Podcast.temporada
 FROM Audio
 INNER JOIN Podcast ON Audio.IDAudio = Podcast.IDPodcast
 
+--FNAP
 -- Junção externa
 
---FNAP
 -- Semi junção
 SELECT a.nome_artistico, a.biografia
 FROM Artista a
@@ -20,6 +20,7 @@ WHERE EXISTS (
     FROM Turnes t
     WHERE t.IDTurnes = a.IDArtista
 ); 
+--GME
 -- Anti-junção
 SELECT a.nome_artistico, a.biografia
 FROM Artista a
@@ -29,7 +30,6 @@ WHERE NOT EXISTS (
     WHERE t.IDTurnes = a.IDArtista
 );
 
---GME
 -- Subconsulta do tipo escalar
 SELECT a.nome, a.duracao
 FROM Audio a
