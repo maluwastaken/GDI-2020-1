@@ -233,3 +233,10 @@ insert into FazParte values('0010', '0020', '0005');
 insert into FazParte values('0017', '0019', '0004');
 insert into FazParte values('0019', '0009', '0003');
 insert into FazParte values('0020', '0017', '0005');
+
+--Possuem
+insert into Possuem values('0014', date '2013-02-28', '0001', date '2013-03-01');
+insert into Possuem values('0013', date '2022-05-25', '0002', date '2022-05-26');
+insert into Possuem values('0011', date '2012-10-21', '0003', date '2013-03-01');
+insert into Possuem values('0008', date '2021-03-28', '0004', date '2021-03-30');
+insert into Possuem values('0006', date '2012-12-20', '0003', date '2012-12-31');
