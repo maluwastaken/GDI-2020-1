@@ -1,4 +1,4 @@
-#Conta
+--Conta
 insert into Conta values('0001', 'Gabriel de Melo', 'gme@cin.ufpe.br'); 
 insert into Conta values('0002', 'Maria Luisa Lima', 'mlll@cin.ufpe.br'); 
 insert into Conta values('0003', 'Felipe Almeida', 'fnap@cin.ufpe.br'); 
@@ -20,7 +20,7 @@ insert into Conta values('0018', 'Joseph Rogan', 'JoeRogan@gmail.com');
 insert into Conta values('0019', 'Mauricio Cid', 'naoOuvo@gmail.com');
 insert into Conta values('0020', 'Thiago Marques', 'podpah@gmail.com');
 
-#Audio
+--Audio
 insert into Audio values('0001', 'Vai Malandra', 202);
 insert into Audio values('0002', 'Lose Yourself', 321);
 insert into Audio values('0003', 'Do I Wanna Know', 272);
@@ -62,14 +62,14 @@ insert into Audio values('0038', 'Te Quiero', 204);
 insert into Audio values('0039', 'Elon Musk', 12278);
 insert into Audio values('0040', 'Me Desculpa JayZ', 213);
 
-#Usuario
+--Usuario
 insert into Usuario values('0001', 1, '132', '40028922', 'Gabriel Evangelista', 'master');
 insert into Usuario values('0002', 1, '489', '1234567889', 'Maria L L Lima', 'visa');
 insert into Usuario values('0003', 0, '543', '5446567657', 'Felipe Almeida', 'AgiCard');
 insert into Usuario values('0004', 0, '765', '7657867935', 'Arthur Anibal', 'master');
 insert into Usuario values('0005', 1, '894', '3427656793', 'Pedro Henrique', 'ELO');
 
-#Artista
+--Artista
 insert into Artista values('0006', 'Anitta', 'Nascida Larissa, agora sou Malandra');
 insert into Artista values('0007', 'Aya Nakamura', 'Nascida no Mali, crescida na Franca');
 insert into Artista values('0008', 'Baco Exu do Blues', 'Saido direto da Bahia, balancei o eixo do rap');
@@ -86,7 +86,7 @@ insert into Artista values('0018', 'Joe Rogan', 'Podcast oficial do comediante J
 insert into Artista values('0019', 'Nao Ouvo', 'Maior bobajada da internet');
 insert into Artista values('0020', 'Podpah', 'Um podcast sobre rap');
 
-#Podcast
+--Podcast
 insert into Podcast values('0011', 6, 19);
 insert into Podcast values('0014', 6, 9);
 insert into Podcast values('0021', 30, 2);
@@ -96,7 +96,7 @@ insert into Podcast values('0026', 68, 13);
 insert into Podcast values('0027', 7, 10);
 insert into Podcast values('0039', 9, 16);
 
-#Música
+--Música
 insert into Musica values('0001');
 insert into Musica values('0002');
 insert into Musica values('0003');
@@ -130,7 +130,7 @@ insert into Musica values('0037');
 insert into Musica values('0038');
 insert into Musica values('0040');
 
-#Gênero
+--Gênero
 insert into Genero values('0001', 'Funk');
 insert into Genero values('0002', 'Rap');
 insert into Genero values('0003', 'Rock');
@@ -168,7 +168,7 @@ insert into Genero values('0038', 'EDM');
 insert into Genero values('0040', 'Rap');
 insert into Genero values('0040', 'Blues');
 
-#Tema
+--Tema
 insert into Tema  values('0011', 'Politica');
 insert into Tema values('0014', 'Politica');
 insert into Tema values('0021', 'Conversa');
@@ -178,7 +178,7 @@ insert into Tema values('0026', 'Comedia' );
 insert into Tema values('0027', 'Politica');
 insert into Tema values('0039', 'Comedia' );
 
-#Seguir
+--Seguir
 insert into Seguir values('0002', '0004');
 insert into Seguir values('0001', '0002');
 insert into Seguir values('0001', '0005');
