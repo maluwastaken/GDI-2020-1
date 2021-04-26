@@ -16,6 +16,15 @@ DBMS_OUTPUT.PUT_LINE('O Usuario: ' || :OLD.nome );
 DBMS_OUTPUT.PUT_LINE('Agora se chama: ' || :NEW.nome );
 END;
 
+--procedure
+CREATE OR REPLACE PROCEDURE Musicas (id_artista VARCHAR2) 
+IS
+    tmp number := 0;
+BEGIN
+select count(IDProdAudio) into tmp from Producao inner join Artista on IDArtista = id_artista where IDProdArtista = IDArtista;
+DBMS_OUTPUT.PUT_LINE('O artista ' || id_artista || ' tem: ' || tmp || ' musicas.');
+END;
+
 -- funcao
 CREATE OR REPLACE FUNCTION get_size(id_artista VARCHAR) 
 RETURN NUMBER
