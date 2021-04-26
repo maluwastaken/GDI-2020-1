@@ -247,3 +247,11 @@ insert into Contem values('0019', '0003');
 insert into Contem values('0015', '0004');
 insert into Contem values('0009', '0005');
 insert into Contem values('0005', '0001');
+
+--Criar
+insert into Criar values('0001', '0002', '0001');
+insert into Criar values('0002', '0005', '0002');
+insert into Criar values('0002', '0019',  '0002');
+insert into Criar values('0003', '0003', '0003');
+insert into Criar values('0004', '0008',  '0004');
+insert into Criar values('0005', '0010', '0005');
