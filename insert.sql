@@ -189,3 +189,10 @@ insert into Seguir values('0003', '0004');
 insert into Seguir values('0003', '0005');
 insert into Seguir values('0004', '0003');
 insert into Seguir values('0004', '0002');
+
+--Show
+insert into Show values('0001', 'Clube Portugues', 1000);
+insert into Show values('0002', 'Clube Alemão', 10000);
+insert into Show values('0003', 'Clube Japones', 100);
+insert into Show values('0004', 'Clube Ingles', 10);
+insert into Show values('0005', 'Clube Brasileir', 1300);
