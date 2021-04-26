@@ -67,9 +67,6 @@ WHERE C.IDConta IN
             U.ehPremium = 0
     );
     
-   
-
-
 -- Operação de conjunto
 SELECT c.nome FROM Conta c inner join Seguir s ON c.IDConta = s.IDSeguido
 MINUS
