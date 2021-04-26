@@ -217,3 +217,12 @@ insert into Turnes values('0011', date '2012-10-21');
 insert into Turnes values('0014', date '2013-02-28');
 insert into Turnes values('0013', date '2022-05-25');
 insert into Turnes values('0008', date '2021-03-28');
+
+--Producao
+insert into Producao values('0001', '0007');
+insert into Producao values('0004', '0008');
+insert into Producao values('0010', '0020');
+insert into Producao values('0020', '0017');
+insert into Producao values('0017', '0019');
+insert into Producao values('0019', '0009');
+
