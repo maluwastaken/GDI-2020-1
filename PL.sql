@@ -43,3 +43,11 @@ BEGIN
     return tmp2;
 END;
 
+-- Funcao da anita
+CREATE OR REPLACE FUNCTION get_the_best_id
+RETURN VARCHAR
+IS
+    id_artista varchar(5) := '0006';
+BEGIN
+    return id_artista;
+END;
