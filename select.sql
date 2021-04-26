@@ -1,3 +1,4 @@
+--AHAC
 -- Group by/Having
 SELECT Count(IDGenero), genero
 FROM Genero
@@ -10,6 +11,7 @@ INNER JOIN Podcast ON Audio.IDAudio = Podcast.IDPodcast
 
 -- Junção externa
 
+--FNAP
 -- Semi junção
 SELECT a.nome_artistico, a.biografia
 FROM Artista a
@@ -26,6 +28,8 @@ WHERE NOT EXISTS (
     FROM Turnes t
     WHERE t.IDTurnes = a.IDArtista
 );
+
+--GME
 -- Subconsulta do tipo escalar
 SELECT a.nome, a.duracao
 FROM Audio a
@@ -46,7 +50,7 @@ WHERE (ehPremium, cartao_band) = (
     WHERE IDUsuario = '0001'
 );
 
-
+--MLLL
 -- Subconsulta do tipo tabela 
 SELECT C.nome
 FROM Conta C
