@@ -226,3 +226,10 @@ insert into Producao values('0020', '0017');
 insert into Producao values('0017', '0019');
 insert into Producao values('0019', '0009');
 
+--FazParte
+insert into FazParte values('0001', '0007', '0001');
+insert into FazParte values('0004', '0008', '0002');
+insert into FazParte values('0010', '0020', '0005');
+insert into FazParte values('0017', '0019', '0004');
+insert into FazParte values('0019', '0009', '0003');
+insert into FazParte values('0020', '0017', '0005');
