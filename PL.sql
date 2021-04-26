@@ -1,3 +1,4 @@
+--FNAP
 -- Printa que um usuario foi cadastrado com sucesso apos insercao
 CREATE OR REPLACE TRIGGER howmany
 AFTER INSERT
@@ -6,6 +7,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Usuario cadastrado com sucesso');
 END;
 
+--GME
 -- Printa o valor antigo e o novo de uma atualizacao na conta
 CREATE OR REPLACE TRIGGER atualizaconta
 AFTER UPDATE
@@ -16,6 +18,7 @@ DBMS_OUTPUT.PUT_LINE('O Usuario: ' || :OLD.nome );
 DBMS_OUTPUT.PUT_LINE('Agora se chama: ' || :NEW.nome );
 END;
 
+--MLLL
 --procedure
 CREATE OR REPLACE PROCEDURE Musicas (id_artista VARCHAR2) 
 IS
@@ -25,6 +28,7 @@ select count(IDProdAudio) into tmp from Producao inner join Artista on IDArtista
 DBMS_OUTPUT.PUT_LINE('O artista ' || id_artista || ' tem: ' || tmp || ' musicas.');
 END;
 
+--AHAC
 -- funcao
 CREATE OR REPLACE FUNCTION get_size(id_artista VARCHAR) 
 RETURN NUMBER
