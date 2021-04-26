@@ -210,3 +210,10 @@ insert into Playlist values('0002', 'Playlist deprê', '483274826732683243264328
 insert into Playlist values('0003', 'Limpando a casa', '434354353458435734985');
 insert into Playlist values('0004', 'Dormir tranquilo', '483748365874353478');
 insert into Playlist values('0005', 'Classicos anos 90', '87389173987483265874');
+
+--Turnes
+insert into Turnes values('0006', date '2012-12-20');
+insert into Turnes values('0011', date '2012-10-21');
+insert into Turnes values('0014', date '2013-02-28');
+insert into Turnes values('0013', date '2022-05-25');
+insert into Turnes values('0008', date '2021-03-28');
