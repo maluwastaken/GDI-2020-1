@@ -196,3 +196,10 @@ insert into Show values('0002', 'Clube Alemão', 10000);
 insert into Show values('0003', 'Clube Japones', 100);
 insert into Show values('0004', 'Clube Ingles', 10);
 insert into Show values('0005', 'Clube Brasileir', 1300);
+
+--Album
+insert into Album values('0001', 'Album A', 'gravadora ABC');
+insert into Album values('0002', 'Album B', 'gravadora ABC');
+insert into Album values('0003', 'Album C', 'gravadora XYZ');
+insert into Album values('0004', 'Album D', 'gravadora XYZ');
+insert into Album values('0005', 'Album E', 'gravadora ABC');
