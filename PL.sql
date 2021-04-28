@@ -14,8 +14,8 @@ AFTER UPDATE
 ON Conta
 FOR EACH ROW
 BEGIN
-DBMS_OUTPUT.PUT_LINE('O Usuario: ' || :OLD.nome );
-DBMS_OUTPUT.PUT_LINE('Agora se chama: ' || :NEW.nome );
+DBMS_OUTPUT.PUT_LINE('O Usuario: ' || :OLD.nome || ',' || :OLD.email);
+DBMS_OUTPUT.PUT_LINE('Agora eh: ' || :NEW.nome || ',' || :NEW.email);
 END;
 
 --MLLL
@@ -23,9 +23,11 @@ END;
 CREATE OR REPLACE PROCEDURE Musicas (id_artista VARCHAR2) 
 IS
     tmp number := 0;
+    nomeArtista varchar(20);
 BEGIN
 select count(IDProdAudio) into tmp from Producao inner join Artista on IDArtista = id_artista where IDProdArtista = IDArtista;
-DBMS_OUTPUT.PUT_LINE('O artista ' || id_artista || ' tem: ' || tmp || ' musicas.');
+select IDArtista into nomeArtista from Artista where IDArtista = id_artista;
+DBMS_OUTPUT.PUT_LINE('O artista ' || nomeArtista || ' tem: ' || tmp || ' musicas.');
 END;
 
 --AHAC
