@@ -219,12 +219,38 @@ insert into Turnes values('0013', date '2022-05-25');
 insert into Turnes values('0008', date '2021-03-28');
 
 --Producao
-insert into Producao values('0001', '0007');
-insert into Producao values('0004', '0008');
+insert into Producao values('0001', '0006');
+insert into Producao values('0002', '0010');
+insert into Producao values('0003', '0011');
+insert into Producao values('0004', '0010');
+insert into Producao values('0005', '0007');
+insert into Producao values('0006', '0013');
+insert into Producao values('0007', '0014');
+insert into Producao values('0008', '0006');
+insert into Producao values('0009', '0010');    
 insert into Producao values('0010', '0020');
-insert into Producao values('0020', '0017');
+insert into Producao values('0012', '0014');
+insert into Producao values('0013', '0008');
+insert into Producao values('0015', '0015');
+insert into Producao values('0016', '0012');
 insert into Producao values('0017', '0019');
+insert into Producao values('0018', '0013');
 insert into Producao values('0019', '0009');
+insert into Producao values('0020', '0017');
+insert into Producao values('0023', '0007');
+insert into Producao values('0025', '0009');
+insert into Producao values('0028', '0007');
+insert into Producao values('0029', '0006');
+insert into Producao values('0030', '0015');
+insert into Producao values('0031', '0010');
+insert into Producao values('0032', '0006');
+insert into Producao values('0033', '0008');
+insert into Producao values('0034', '0012');
+insert into Producao values('0035', '0012');
+insert into Producao values('0036', '0014');
+insert into Producao values('0037', '0009');
+insert into Producao values('0038', '0014');
+insert into Producao values('0040', '0008');
 
 --FazParte
 insert into FazParte values('0001', '0007', '0001');
