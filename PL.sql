@@ -26,7 +26,7 @@ IS
     nomeArtista varchar(20);
 BEGIN
 select count(IDProdAudio) into tmp from Producao inner join Artista on IDArtista = id_artista where IDProdArtista = IDArtista;
-select IDArtista into nomeArtista from Artista where IDArtista = id_artista;
+select nome_artistico into nomeArtista from Artista where IDArtista = id_artista;
 DBMS_OUTPUT.PUT_LINE('O artista ' || nomeArtista || ' tem: ' || tmp || ' musicas.');
 END;
 
