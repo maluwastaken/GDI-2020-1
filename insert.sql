@@ -253,8 +253,8 @@ insert into Producao values('0038', '0014');
 insert into Producao values('0040', '0008');
 
 --FazParte
-insert into FazParte values('0001', '0007', '0001');
-insert into FazParte values('0004', '0008', '0002');
+insert into FazParte values('0001', '0006', '0001');
+insert into FazParte values('0004', '0010', '0002');
 insert into FazParte values('0010', '0020', '0005');
 insert into FazParte values('0017', '0019', '0004');
 insert into FazParte values('0019', '0009', '0003');
@@ -277,7 +277,7 @@ insert into Contem values('0005', '0001');
 --Criar
 insert into Criar values('0001', '0002', '0001');
 insert into Criar values('0002', '0005', '0002');
-insert into Criar values('0002', '0019',  '0002');
+insert into Criar values('0002', '0019', '0002');
 insert into Criar values('0003', '0003', '0003');
-insert into Criar values('0004', '0008',  '0004');
+insert into Criar values('0004', '0008', '0004');
 insert into Criar values('0005', '0010', '0005');
