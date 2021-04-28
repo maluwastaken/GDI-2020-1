@@ -236,7 +236,7 @@ insert into Producao values('0016', '0012');
 insert into Producao values('0017', '0019');
 insert into Producao values('0018', '0013');
 insert into Producao values('0019', '0009');
-insert into Producao values('0020', '0017');
+insert into Producao values('0020', '0015');
 insert into Producao values('0023', '0007');
 insert into Producao values('0025', '0009');
 insert into Producao values('0028', '0007');
